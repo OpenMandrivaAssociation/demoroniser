@@ -11,7 +11,6 @@ Group:		Text tools
 URL:	        http://www.fourmilab.ch/webtools/demoroniser/	
 Source0:        http://www.fourmilab.ch/webtools/demoroniser/%{name}-%{version}.tar.bz2
 Patch:		%{name}-perl-path.patch.bz2
-BuildRoot:	%_tmppath/%name--buildroot
 Requires:       perl
 BuildArch:	noarch
 
