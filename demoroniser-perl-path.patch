@@ -1,0 +1,8 @@
+--- demoroniser.pl.orig	2002-07-11 14:11:27.000000000 -0700
++++ demoroniser.pl	2002-07-11 14:11:36.000000000 -0700
+@@ -1,4 +1,4 @@
+-#! /bin/perl
++#!/usr/bin/perl
+ #
+ #           De-moron-ise Text from Microsoft Applications
+ # 
