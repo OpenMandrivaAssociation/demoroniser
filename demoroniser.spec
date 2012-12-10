@@ -40,3 +40,50 @@ rm -rf %{buildroot}
 %{_bindir}/demoroniser
 %{_mandir}/man1/demoroniser.1*
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 20030916-4mdv2011.0
++ Revision: 617531
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 20030916-3mdv2010.0
++ Revision: 427960
+- rebuild
+
+* Thu Aug 07 2008 Thierry Vignaud <tv@mandriva.org> 20030916-2mdv2009.0
++ Revision: 266559
+- rebuild early 2009.0 package (before pixel changes)
+
+* Thu May 15 2008 Adam Williamson <awilliamson@mandriva.org> 20030916-1mdv2009.0
++ Revision: 207712
+- bunzip2 patch
+- spec clean
+- new version
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 19980116-5mdv2008.1
++ Revision: 123774
+- kill re-definition of %%buildroot on Pixel's request
+- import demoroniser
+
+
+* Thu Jan 05 2006 Lenny Cartier <lenny@mandriva.com> 19980116-5mdk
+- rebuild
+
+* Sat Feb 01 2003 Lenny Cartier <lenny@mandrakesoft.com 19980116-4mdk
+- rebuild
+
+* Wed Jul 17 2002 Lenny Cartier <lenny@mandrakesoft.cml> 19980116-3mdk
+- from Ben Reser <ben@reser.org> :
+	- More typos.  I need more sleep.
+
+* Fri Jul 12 2002 Ben Reser <ben@reser.org> 19980116-2mdk
+- Fix typos in spec file. :( 
+
+*Thu Jul 11 2002 Ben Reser <ben@reser.org> 19980116-1mdk
+- First mandrake release
+
+
