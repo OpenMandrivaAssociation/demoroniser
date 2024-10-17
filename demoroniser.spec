@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:        Public Domain	
 Group:		Text tools
-URL:	        http://www.fourmilab.ch/webtools/demoroniser/	
+URL:	        https://www.fourmilab.ch/webtools/demoroniser/	
 Source0:        http://www.fourmilab.ch/webtools/demoroniser/%{name}.zip
 Patch0:		%{name}-perl-path.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
